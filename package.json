@@ -1,8 +1,8 @@
 {
-  "name": "carlo",
-  "version": "0.9.46",
+  "name": "glow-carlo",
+  "version": "0.9.47",
   "description": "Carlo is a framework for rendering Node data structures using Chrome browser.",
-  "repository": "github:GoogleChromeLabs/carlo",
+  "repository": "https://github.com/ionglowion/glow-carlo",
   "engines": {
     "node": ">=7.6.0"
   },
@@ -20,11 +20,11 @@
   "license": "Apache-2.0",
   "dependencies": {
     "debug": "^4.1.0",
-    "puppeteer-core": "~1.12.0"
+    "puppeteer-core": "^1.20.0"
   },
   "devDependencies": {
-    "eslint": "^5.8.0",
-    "@pptr/testrunner": "^0.5.0",
-    "@pptr/testserver": "^0.5.0"
+    "@pptr/testrunner": "^0.8.0",
+    "@pptr/testserver": "^0.5.0",
+    "eslint": "^6.5.1"
   }
 }

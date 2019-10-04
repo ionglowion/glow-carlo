@@ -16,7 +16,7 @@
 
 const {TestRunner, Reporter, Matchers} = require('@pptr/testrunner');
 
-const path = require('path');
+// const path = require('path');
 const carlo = require('../lib/carlo');
 
 // Runner holds and runs all the tests
@@ -31,7 +31,7 @@ const {it, fit, xit} = testRunner;
 
 describe('app reuse', () => {
   fit('load returns value', async() => {
-    app = await carlo.launch();
+    const app = await carlo.launch();
     let callback;
     const windowPromise = new Promise(f => callback = f);
     app.on('window', callback);
